@@ -23,7 +23,7 @@ function respondToMood(userName, moodToday) {
 respondToMood(userName, moodToday);
 
 for (let i = 0; i < 3; i++) {
-  console.log("You've got this, " + moodToday + "!");
+  console.log("You've got this, " + userName + "!");
 }
 
 function getMoodMessage(userName, moodToday) {
