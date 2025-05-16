@@ -20,7 +20,6 @@ function respondToMood(name, mood) {
     console.log("Thanks for checking in. Keep being you.");
   }
 }
-respondToMood(userName, moodToday);
 
 for (let i = 0; i < 3; i++) {
   console.log("You've got this, " + userName + "!");
@@ -40,3 +39,5 @@ function getMoodMessage(name, mood) {
 
 let finalMessage = getMoodMessage("Jordan", "stressed");
 console.log("Get some rest. Things will get better!");
+
+respondToMood(userName, moodToday);
